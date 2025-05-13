@@ -58,12 +58,14 @@
             // 
             this.dataGridViewDatas.AllowUserToAddRows = false;
             this.dataGridViewDatas.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.dataGridViewDatas.ColumnHeadersHeight = 29;
             this.dataGridViewDatas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewDatas.Location = new System.Drawing.Point(20, 67);
             this.dataGridViewDatas.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewDatas.MultiSelect = false;
             this.dataGridViewDatas.Name = "dataGridViewDatas";
             this.dataGridViewDatas.ReadOnly = true;
+            this.dataGridViewDatas.RowHeadersWidth = 51;
             this.dataGridViewDatas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewDatas.Size = new System.Drawing.Size(1160, 591);
             this.dataGridViewDatas.TabIndex = 4;
@@ -95,10 +97,10 @@
             // dateTimePickerDatas
             // 
             this.dateTimePickerDatas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePickerDatas.Location = new System.Drawing.Point(395, 18);
+            this.dateTimePickerDatas.Location = new System.Drawing.Point(421, 16);
             this.dateTimePickerDatas.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerDatas.Name = "dateTimePickerDatas";
-            this.dateTimePickerDatas.Size = new System.Drawing.Size(159, 25);
+            this.dateTimePickerDatas.Size = new System.Drawing.Size(159, 29);
             this.dateTimePickerDatas.TabIndex = 7;
             this.dateTimePickerDatas.ValueChanged += new System.EventHandler(this.dateTimePickerDatas_ValueChanged);
             // 
@@ -109,7 +111,7 @@
             this.label2.Location = new System.Drawing.Point(322, 22);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 17);
+            this.label2.Size = new System.Drawing.Size(91, 23);
             this.label2.TabIndex = 6;
             this.label2.Text = "Tarih Seçin";
             // 
@@ -120,14 +122,14 @@
             this.label1.Location = new System.Drawing.Point(33, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 17);
+            this.label1.Size = new System.Drawing.Size(106, 23);
             this.label1.TabIndex = 4;
             this.label1.Text = "Sensör Seçin";
             // 
             // comboBoxSensorType
             // 
             this.comboBoxSensorType.FormattingEnabled = true;
-            this.comboBoxSensorType.Location = new System.Drawing.Point(118, 19);
+            this.comboBoxSensorType.Location = new System.Drawing.Point(147, 21);
             this.comboBoxSensorType.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxSensorType.Name = "comboBoxSensorType";
             this.comboBoxSensorType.Size = new System.Drawing.Size(160, 24);

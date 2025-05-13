@@ -123,6 +123,7 @@
     <Compile Include="DataAccess\DeviceEventDataAccess.cs" />
     <Compile Include="DataAccess\GreenHouseDataAccess.cs" />
     <Compile Include="DataAccess\LogDataAccess.cs" />
+    <Compile Include="DataAccess\NotificationDataAccess.cs" />
     <Compile Include="DataAccess\PlantDataAccess.cs" />
     <Compile Include="DataAccess\PlantTypeDataAccess.cs" />
     <Compile Include="DataAccess\SensorDataAccess.cs" />
@@ -164,6 +165,7 @@
     <Compile Include="Models\DeviceModel.cs" />
     <Compile Include="Models\GreenHouseModel.cs" />
     <Compile Include="Models\LogModel.cs" />
+    <Compile Include="Models\NotificationModel.cs" />
     <Compile Include="Models\PlantModel.cs" />
     <Compile Include="Models\PlantTypeModel.cs" />
     <Compile Include="Models\SensorDataModel.cs" />
